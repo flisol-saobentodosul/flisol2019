@@ -1,0 +1,30 @@
+.content-programacao .row >div {
+  text-align: right;
+}
+.content-programacao .row >div >h3 {
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 35px;
+}
+
+.box-programacao {
+  margin-bottom: 50px;
+}
+
+.box-programacao >h5 {
+  font-size: 19px;
+}
+
+.box-programacao >p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5)
+}
+.buttom-resume {
+  display: flex;
+  margin-top: 25px;
+  justify-content: flex-end;
+}
+.buttom-resume .link-button {
+  color: #000 !important;
+  margin-right: 10px;
+}

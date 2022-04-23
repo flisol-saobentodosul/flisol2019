@@ -1,0 +1,218 @@
+#header {
+  position: fixed;
+  width: 25%;
+}
+
+.menu-content {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 30px 20px 60px 10px;
+  display: flex;
+/*   align-items: center; */
+  justify-content: center;
+  flex-flow: column;
+  height: 100vh;
+}
+#content-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.menu-content #content-logo-link >a >img {
+  margin-bottom: 60px;
+}
+.menu-content #content-logo-link >a >img:hover{
+  filter: blur(0.7px) grayscale(40%);
+}
+.menu-content #content-logo-link .link-button{
+  border-color: #f1a719;
+  color: #f1a719;
+  margin-bottom: 50px;
+  padding: 10px 50px;
+}
+.menu-content >h1{
+  color: #f58b00;
+}
+.menu-content >h2{
+  color: #f1a719;
+}
+.menu-principal-container #menu-principal {
+  padding-left: 30px;
+}
+.menu-principal-container #menu-principal >li {
+  padding: 13px;
+}
+@keyframes fa-blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5;}
+  100% { opacity: 0; }
+}
+
+.menu-principal-container #menu-principal >li:hover >a{
+  font-style: italic;
+}
+.current_page_item >a >span,
+.menu-principal-container #menu-principal >li:hover >a >span{
+  color: #000;
+  font-weight: bold;
+  -webkit-animation: fa-blink .75s linear infinite;
+  -moz-animation: fa-blink .75s linear infinite;
+  -ms-animation: fa-blink .75s linear infinite;
+  -o-animation: fa-blink .75s linear infinite;
+  animation: fa-blink .75s linear infinite;
+}
+
+.menu-principal-container #menu-principal >li >a{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+}
+.menu-principal-container #menu-principal .current_page_item >a,
+.actived,
+.menu-principal-container #menu-principal >li:hover >a {
+  color: #f1a719;
+}
+
+/* Responsive Menu */
+#responsive-menu  {
+  display: none;
+}
+#content-responsive-menu {
+  display: flex;
+}
+#content-responsive-menu #responsive-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content-responsive-menu #responsive-logo a img{
+  width: 100px;
+  margin-left: 30px;
+}
+
+/*  Menu Hamburguer */
+#menuToggle
+{
+  display: block;
+  position: relative;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 55px;
+  height: 50px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  top: 13px;
+  left: 10px;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+.menu-responsive-container
+{
+  position: absolute;
+  width: 450px;
+  margin: -100px 0 0 -50px;
+  padding-left: 85px;
+  padding-top: 125px;
+  padding-bottom: 50px;
+  background-color: rgba(255,255,255, 0.9);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu-responsive li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+#menu-responsive li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ div
+{
+  transform: none;
+}

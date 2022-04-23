@@ -1,0 +1,23 @@
+.box-img-palestrante >img {
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  max-width: 100px;
+  max-height: 100px;
+}
+.box-img-palestrante {
+  margin-right: 15px;
+}
+.box-palestrante {
+  display: flex;
+  align-items: center;
+}
+.mb {
+  margin-bottom: 70px;  
+}
+.box-info-palestrante #buttom-resume .link-button {
+  color: #000;
+}
+.box-info-palestrante #buttom-resume {
+  display: flex;
+  margin-top: 25px;
+}

@@ -1,0 +1,37 @@
+
+@media (min-width: 768px) and (max-width: 991px){
+  #responsive-menu  {
+    display: block !important;
+  }
+  #menu-box {
+    display: none;
+  }
+  #body-resp {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+  #responsive-menu  {
+    display: block !important;
+  }
+   #menu-box {
+    display: none;
+  }
+  #body-resp {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+  #responsive-menu  {
+    display: block !important;
+  }
+  #menu-box {
+    display: none;
+  }
+  #body-resp {
+    width: 100%;
+  }
+}

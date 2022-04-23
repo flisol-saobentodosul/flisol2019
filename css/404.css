@@ -1,0 +1,111 @@
+.mesage-not-found >h1{
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 0 #ec6908, 
+    -1px 1px 0 #ec6908, 1px -1px 0 #ec6908, 
+    -1px -1px 0 #ec6908, 0px 1px 0 #ec6908, 
+    0px -1px 0 #ec6908, -1px 0px 0 #ec6908, 
+    1px 0px 0 #ec6908, 2px 2px 0 #ec6908, 
+    -2px 2px 0 #ec6908, 2px -2px 0 #ec6908, 
+    -2px -2px 0 #ec6908, 0px 2px 0 #ec6908, 
+    0px -2px 0 #ec6908, -2px 0px 0 #ec6908, 
+    2px 0px 0 #ec6908, 1px 2px 0 #ec6908, 
+    -1px 2px 0 #ec6908, 1px -2px 0 #ec6908, 
+    -1px -2px 0 #ec6908, 2px 1px 0 #ec6908, 
+    -2px 1px 0 #ec6908, 2px -1px 0 #ec6908, 
+    -2px -1px 0 #ec6908;
+}
+.mesage-not-found >h5{
+  font-size: 23px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 0 #ec6908, 
+    -1px 1px 0 #ec6908, 1px -1px 0 #ec6908, 
+    -1px -1px 0 #ec6908, 0px 1px 0 #ec6908, 
+    0px -1px 0 #ec6908, -1px 0px 0 #ec6908, 
+    1px 0px 0 #ec6908, 2px 2px 0 #ec6908, 
+    -2px 2px 0 #ec6908, 2px -2px 0 #ec6908, 
+    -2px -2px 0 #ec6908, 0px 2px 0 #ec6908, 
+    0px -2px 0 #ec6908, -2px 0px 0 #ec6908, 
+    2px 0px 0 #ec6908, 1px 2px 0 #ec6908, 
+    -1px 2px 0 #ec6908, 1px -2px 0 #ec6908, 
+    -1px -2px 0 #ec6908, 2px 1px 0 #ec6908, 
+    -2px 1px 0 #ec6908, 2px -1px 0 #ec6908, 
+    -2px -1px 0 #ec6908;
+}
+.mesage-not-found #not-error{
+	border: none;
+  border-top: 15px solid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-bottom: 8px solid #ec6908;
+  border-left: 16px solid #ec6908;
+  border-right: 16px solid #ec6908;
+}
+.mesage-not-found >a >h6{
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #ec6908;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+   -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+       transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+   text-shadow: 1px 1px 0 #000, 
+    -1px 1px 0 #000, 1px -1px 0 #000, 
+    -1px -1px 0 #000, 0px 1px 0 #000, 
+    0px -1px 0 #000, -1px 0px 0 #000, 
+    1px 0px 0 #000, 2px 2px 0 #000, 
+    -2px 2px 0 #000, 2px -2px 0 #000, 
+    -2px -2px 0 #000, 0px 2px 0 #000, 
+    0px -2px 0 #000, -2px 0px 0 #000, 
+    2px 0px 0 #000, 1px 2px 0 #000, 
+    -1px 2px 0 #000, 1px -2px 0 #000, 
+    -1px -2px 0 #000, 2px 1px 0 #000, 
+    -2px 1px 0 #000, 2px -1px 0 #000, 
+    -2px -1px 0 #000;
+}
+.mesage-not-found >a:hover >h6{
+	-webkit-transform: scale(1.2);
+	   -moz-transform: scale(1.2);
+	    -ms-transform: scale(1.2);
+	     -o-transform: scale(1.2);
+	        transform: scale(1.2);		
+}
+.error-not-found >h1{
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 202px;
+  color: white;
+  text-shadow: 1px 1px 0 #ec6908, 
+    -1px 1px 0 #ec6908, 1px -1px 0 #ec6908, 
+    -1px -1px 0 #ec6908, 0px 1px 0 #ec6908, 
+    0px -1px 0 #ec6908, -1px 0px 0 #ec6908, 
+    1px 0px 0 #ec6908, 2px 2px 0 #ec6908, 
+    -2px 2px 0 #ec6908, 2px -2px 0 #ec6908, 
+    -2px -2px 0 #ec6908, 0px 2px 0 #ec6908, 
+    0px -2px 0 #ec6908, -2px 0px 0 #ec6908, 
+    2px 0px 0 #ec6908, 1px 2px 0 #ec6908, 
+    -1px 2px 0 #ec6908, 1px -2px 0 #ec6908, 
+    -1px -2px 0 #ec6908, 2px 1px 0 #ec6908, 
+    -2px 1px 0 #ec6908, 2px -1px 0 #ec6908, 
+    -2px -1px 0 #ec6908;
+}
+.not-found {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/bkg-404.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

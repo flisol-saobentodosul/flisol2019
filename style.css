@@ -1,0 +1,167 @@
+/*  
+Theme Name: Fisol
+Theme URI: http://www.flisol.com.br
+Description: Tema desenvolvido para o Flisol São Bento do Sul
+Author: T-virus
+Author URI: http://www.flisol.com.br
+*/
+
+/* Import styles externs */
+@import url('./css/responsive.css');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('./css/bootstrap/bootstrap-grid.min.css');
+/* @import url('./css/bootstrap/bootstrap-reboot.min.css'); */
+@import url('./css/bootstrap/bootstrap.min.css');
+@import url('./css/menu.css');
+@import url('./css/footer.css');
+@import url('./css/palestrantes.css');
+@import url('./css/sobre_flisol.css');
+@import url('./css/programacao.css');
+@import url('./css/patrocinador.css');
+@import url('./css/contato_localizacao.css');
+@import url('./css/404.css');
+
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;outline:0;vertical-align:baseline;margin:0;padding:0;}
+:focus{outline:0;}
+ol,ul{list-style:none;}
+table{border-collapse:separate;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+i,em{font-style:italic;}
+b,strong{font-weight:bold;}
+small{font-size:10px;}
+big{font-size:16px;}
+a img{border:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+a:link,a:visited{color:#0066cc;text-decoration:none;outline:0;}
+a:hover,a:active{color:#0055a9;text-decoration:none;outline:0;}
+body{background:#fff;font-family: 'Share Tech Mono', monospace;;color:#000;}
+/* Class to button */
+.link-button{
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 4px solid;
+  padding: 10px 40px;
+  font-size: 20px;
+  text-align: center;
+}
+.link-button:hover {
+  -webkit-transition: all .2s ease-in-out; 
+  transition: all .2s ease-in-out;
+  -webkit-box-shadow: 10px 4px 14px -1px rgba(0,0,0,.3);
+  box-shadow: 10px 4px 14px -1px rgba(0,0,0,.3);
+}
+.content-header-pages {
+  padding-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.content-header-pages >h1 {
+  font-size: 24px;
+}
+.content-button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content-button-form .link-button{
+  color: #000;
+  font-weight: bold;
+}
+.primary {
+  color: #3c8dbc !important;
+}
+.danger {
+  color: #dd4b39 !important;
+}
+.success {
+  color: #00a65a !important;
+}
+.info {
+  color: #00c0ef !important;
+}
+.warning {
+  color: #f39c12 !important;
+}
+.modal-footer .link-button{
+  padding: 4px 40px;
+}
+#menu-box,
+#body-resp {
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+.card.card-body {
+  text-align: justify !important;
+}
+.hidden {
+  display: none;
+}
+.not-content{
+  text-align: center;
+  font-size: 23px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.box-atctivities .image-summary >img {
+    max-width: 100%;
+    height: auto;
+	margin-bottom: 20px;
+}
+
+.box-atctivities {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.text-news .title-post{
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+	color: #f1a719;
+	font-size: 22px;
+}
+.text-news .summary {
+	font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.box-atctivities .link-button {
+	color: #f1a719;
+}
+.box-content-post-ativities {
+	text-align: justify;
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+.title-post-single {
+	 color: #f1a719;
+    font-size: 29px;
+}
+.box-content-post-ativities ul, ol{
+	list-style-type: disc;
+	margin-top: 10px;
+    margin-bottom: 1rem;
+	padding-inline-start: 40px;
+}
+.box-content-post-ativities h1,
+.box-content-post-ativities h2,
+.box-content-post-ativities h3,
+.box-content-post-ativities h4,
+.box-content-post-ativities h5,
+.box-content-post-ativities h6 {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.box-content-post-ativities p {
+	margin-bottom: 7px;
+}
